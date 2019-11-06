@@ -1,13 +1,15 @@
 import React from "react";
 import "./App.css";
+import MainCard from "./Components/MainCard";
+import Footer from "./Components/Footer";
+
 
 function App() {
   return (
     <div className="App">
-      <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun 🚀!
-      </p>
+      <h1>NASA Photo of the Day</h1>
+      <MainCard />
+      <Footer />
     </div>
   );
 }
