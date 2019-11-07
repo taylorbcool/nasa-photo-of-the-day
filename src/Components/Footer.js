@@ -1,10 +1,11 @@
 import React from "react";
+import { Typography } from "@material-ui/core";
 
 const Footer = () => {
     return(
         <footer>
-            <p>Site built by Taylor Cool</p>
-            <p>Nov. 6, 2019</p>
+            <Typography variant="p">Site built by Taylor Cool</Typography>
+            <Typography variant="p">Nov. 6, 2019</Typography>
         </footer>
     );
 }

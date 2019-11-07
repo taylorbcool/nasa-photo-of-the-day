@@ -1,10 +1,11 @@
 import React from "react";
+import { Typography } from "@material-ui/core";
 
 const DescriptionCard = props => {
     return(
-        <div className="desc-container">
-            <p>{props.explanation}</p>
-        </div>
+        <>
+            <Typography variant="p">{props.explanation}</Typography>
+        </>
     )
 }
 

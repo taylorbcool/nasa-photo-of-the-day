@@ -1,12 +1,13 @@
 import React from "react";
+import { Typography } from "@material-ui/core";
 
 const ImageCard = props => {
     return(
-        <div className="img-container">
-            <h4>{props.date}</h4>
-            <h3>{props.title}</h3>
+        <>
+            <Typography variant="h4">{props.date}</Typography>
+            <Typography variant="h3">{props.title}</Typography>
             <img className="spaceImg" alt="Today's NASA Astronomy Image of the Day" src={props.url}/>
-        </div>
+        </>
 
     )
 }
